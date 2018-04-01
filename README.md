@@ -17,17 +17,20 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection (SQLi)
-- It is possible to escape the salesperson ID query and inject your own query.
+- The salesperson ID query is unsanitized. The other sites would redirect to the master page.
 
 ![Alt Text](https://i.imgur.com/SYM76Mq.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
+- It is possible to bypass the login page if change your session id to that of an already logged-in user.
+
+![Alt Text](https://i.imgur.com/5vRncKu.gif)
 
 
 ## Green
 
 Vulnerability #1: Username Enumeration
-- An error message is retrieved when the wrong password is given. The message is only bold if the username is valid. This indicates that two errors are retrieved here. An intruder could use this information to check for valid usernames.
+- An error message is retrieved when the wrong password is given. The message is only bold if the username is valid. This indicates that two errors are retrieved here. An intruder could use this information to check the site for valid usernames.
 
 ![Alt Text](https://i.imgur.com/noJvDwY.gif)
 
