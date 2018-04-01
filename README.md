@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -41,9 +41,15 @@ Vulnerability #2: Cross-Site Scripting (XSS)
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+- By changing the salesperson ID, you can access pages that can't be found on the territories page.
 
-Vulnerability #2: __________________
+![Alt Text](https://i.imgur.com/sSkI2PN.gif)
+
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
+- The site fails to check the CSRF key. An invalid key can be used to edit salesperson data.
+
+![Alt Text](https://i.imgur.com/FzThLZz.gif)
 
 
 ## Notes
