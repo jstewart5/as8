@@ -47,7 +47,7 @@ Vulnerability #1: Insecure Direct Object Reference (IDOR)
 ![Alt Text](https://i.imgur.com/sSkI2PN.gif)
 
 Vulnerability #2: Cross-Site Request Forgery (CSRF)
-- The site fails to check the CSRF key. An invalid key can be used to edit salesperson data.
+- The site fails to check the CSRF token. Any value can be used as a token to edit salesperson data.
 
 ![Alt Text](https://i.imgur.com/FzThLZz.gif)
 
