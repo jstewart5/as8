@@ -18,6 +18,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection (SQLi)
 - It is possible to escape the salesperson ID query and inject your own query.
+
 ![Alt Text](https://i.imgur.com/SYM76Mq.gif)
 
 Vulnerability #2: __________________
@@ -26,11 +27,13 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: Username Enumeration
-- An error message is retrieved when the wrong password is given. The message is only bold if the username is valid. This indicates that there are at least two different errors that can be retrieved. An intruder could use this information to check for valid usernames.
+- An error message is retrieved when the wrong password is given. The message is only bold if the username is valid. This indicates that two errors are retrieved here. An intruder could use this information to check for valid usernames.
+
 ![Alt Text](https://i.imgur.com/noJvDwY.gif)
 
 Vulnerability #2: Cross-Site Scripting (XSS)
 - There is an unsanitized web form on the Contact Us page.
+
 ![Alt Text](https://i.imgur.com/SAATgKx.gif)
 
 ## Red
