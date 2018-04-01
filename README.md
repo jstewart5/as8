@@ -17,12 +17,12 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection (SQLi)
-- The salesperson ID query is unsanitized. The other sites would redirect to the master page.
+- The salesperson ID query is unsanitized here. The other sites just redirect to the territories page.
 
 ![Alt Text](https://i.imgur.com/SYM76Mq.gif)
 
 Vulnerability #2: Session Hijacking/Fixation
-- It is possible to bypass the login page if change your session id to that of an already logged-in user.
+- It is possible to bypass the login page if you change your session id to that of an already logged-in user.
 
 ![Alt Text](https://i.imgur.com/5vRncKu.gif)
 
@@ -48,4 +48,4 @@ Vulnerability #2: __________________
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+I wasn't able to retrieve anything from the SQLi vulnerability, only confirm its existence
